@@ -154,6 +154,26 @@ p {
   color: green;
 }
 
+.footer-logo{
+  height: 50px;
+  width: auto;
+}
+
+.whatsapp-icon {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.whatsapp-icon:hover {
+  transform: scale(1.1);
+}
+
 /*===== All Button Style =====*/
 .main-btn {
   display: inline-block;
